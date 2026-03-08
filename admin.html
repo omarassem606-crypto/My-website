@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+font-family:Arial;
+background:#f4f4f4;
+padding:40px;
+margin:0;
+}
+.panel{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:500px;
+margin:auto;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+button{
+padding:10px 20px;
+margin:10px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="panel">
+<h2>Admin Dashboard</h2>
+<p>Welcome Admin</p>
+
+<button>Users</button>
+<button>Settings</button>
+<button onclick="logout()">Logout</button>
+</div>
+
+<script>
+function logout(){
+window.location="index.html";
+}
+</script>
+
+</body>
+</html>
